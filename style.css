@@ -1,0 +1,143 @@
+body {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+
+}
+
+.container {
+    height: 420px;
+    width: 55%;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    color: hsla(0, 0%, 100%, 0.75);
+
+}
+
+
+.leftBox {
+    background-color: hsl(31, 77%, 52%);
+    height: 100%;
+    width: 282px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: hsla(0, 0%, 100%, 0.75);
+
+
+}
+
+.leftBox>img {
+    padding-left: 45px;
+    padding-top: 45px;
+}
+
+.leftBox>h1 {
+    padding-left: 45px;
+    font-size: 35px;
+    font-family: 'Big Shoulders Display', cursive;
+
+
+}
+
+.leftBox>p {
+    padding-left: 45px;
+    height: 150px;
+    width: 65%;
+    font-size: 14px;
+    font-family: 'Lexend Deca', sans-serif;
+
+ 
+}
+
+.leftBox>button {
+    margin-left: 45px;
+    border: none;
+    border-radius: 40px;
+    width: 50%;
+    height: 10%;
+    color: hsl(31, 77%, 52%);
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: hsla(0, 0%, 100%, 0.75);
+    ;
+
+}
+
+.middleBox {
+    background-color: hsl(184, 100%, 22%);
+    height: 100%;
+    width: 282px;
+
+}
+
+.middleBox>img {
+    padding-left: 45px;
+    padding-top: 45px;
+}
+
+.middleBox>h1 {
+    padding-left: 45px;
+    font-size: 35px;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.middleBox>p {
+    padding-left: 45px;
+    height: 150px;
+    width: 65%;
+    font-size: 14px;
+    font-family: 'Lexend Deca', sans-serif;
+    ;
+    
+
+}
+
+.middleBox>button {
+    margin-left: 45px;
+    border: none;
+    border-radius: 40px;
+    width: 50%;
+    height: 10%;
+    color: hsl(31, 77%, 52%);
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: hsla(0, 0%, 100%, 0.75);
+    color: hsl(184, 100%, 22%);}
+
+.rightBox {
+    background-color: hsl(179, 100%, 13%);
+    height: 100%;
+    width: 282px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.rightBox>img {
+    padding-left: 45px;
+    padding-top: 45px;
+}
+
+.rightBox>h1 {
+    padding-left: 45px;
+    font-size: 35px;
+    font-family: 'Big Shoulders Display', cursive;}
+
+.rightBox>p {
+    padding-left: 45px;
+    height: 150px;
+    width: 65%;
+    font-size: 14px;
+    font-family: 'Lexend Deca', sans-serif;}
+
+.rightBox>button {
+    margin-left: 45px;
+    border: none;
+    border-radius: 40px;
+    width: 50%;
+    height: 10%;
+    color: hsl(31, 77%, 52%);
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: hsla(0, 0%, 100%, 0.75);
+    color: hsl(179, 100%, 13%);}
